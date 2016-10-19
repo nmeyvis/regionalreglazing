@@ -153,6 +153,31 @@ h1 {
     padding: 2% 4%;
 }
 
+.testimonials {
+
+}
+
+.review {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.review .title {
+    padding: 15px 0;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.review img {
+    width: 80%;
+}
+
+.review p {
+    margin-top: 15px;
+    padding: 20px;
+    border: 1px solid #dedede;
+}
+
 .footer {
     margin-top: 8%;
 }
