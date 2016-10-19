@@ -14,6 +14,10 @@ h1 {
     font-family: 'PT Serif', serif;
 }
 
+.loc {
+    font-style: italic;
+}
+
 .vert-div-container {
     text-align: center;
 }
@@ -32,12 +36,13 @@ h1 {
 
 .header {
     position: relative;
-    border-bottom: 1px solid #00007e;
+    border-bottom: 3px solid #00007e;
 }
 
 .header > .logo {
+    height: 100px;
     position: relative;
-    top: 32px;
+    top: 53px;
 }
 
 .welcome {
