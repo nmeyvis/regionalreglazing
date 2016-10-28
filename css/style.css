@@ -83,12 +83,16 @@ a:hover {
 
 
 .full-banner  {
-    border-top: 10px solid #2d527c;
-    background-color: #2876ce;
+    border-top: 10px solid #44447b;
+    background-color: #29295a;
     color: white;
 }
 .contact-info {
     text-align: center;
+}
+
+.contact-info h1 {
+    color: #d2d2ff;
 }
 
 .contact-info.with-header {
@@ -101,7 +105,7 @@ a:hover {
 
 .contact-methods {
     padding: 35px;
-    background-color: rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 255, 255, 0.06);
 }
 
 .contact-method {
@@ -110,7 +114,7 @@ a:hover {
 
 .contact-method .note {
     font-size: 0.5em;
-    color: #7dbaff;
+    color: #8e8ede;
 }
 
 .business-services {
@@ -134,7 +138,7 @@ a:hover {
 .service-title {
     font-size: 1.6em;
     text-transform: uppercase;
-    color: #3c82ef;
+    color: #4141ab;
 }
 
 .service-desc {
@@ -207,13 +211,19 @@ a:hover {
     border: 1px solid #dedede;
 }
 
+.review p:before {
+    position: absolute;
+    content: "\"";
+    font-size: 3em;
+}
+
 .footer {
     margin-top: 8%;
 }
 
 .footer .full-banner {
     border-top: none;
-    border-bottom: 35px solid #2d527c;
+    border-bottom: 35px solid #44447b;
 }
 
 .cta {
