@@ -174,13 +174,21 @@ a:hover {
     padding: 2% 4%;
 }
 
-.testimonials {
+#reviews {
+    margin-top: 10%;
+}
 
+#reviews > h1 {
+    text-align: center;
+    margin: 10% 0;
+    border-top: 1px solid #00007e;
+    border-bottom: 1px solid #00007e;
+    padding: 10px;
 }
 
 .review {
     text-align: center;
-    margin-top: 15%;
+
 }
 
 .review .title {
