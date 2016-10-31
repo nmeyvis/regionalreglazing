@@ -184,7 +184,7 @@ a:hover {
 
 #reviews > h1 {
     text-align: center;
-    margin: 10% 0;
+    margin: 8% 0;
     border-top: 1px solid #00007e;
     border-bottom: 1px solid #00007e;
     padding: 10px;
@@ -192,7 +192,7 @@ a:hover {
 
 .review {
     text-align: center;
-
+    margin-top: 2%
 }
 
 .review .title {
@@ -211,11 +211,11 @@ a:hover {
     border: 1px solid #dedede;
 }
 
-.review p:before {
+/*.review p:before {
     position: absolute;
     content: "\"";
     font-size: 3em;
-}
+}*/
 
 .footer {
     margin-top: 8%;
@@ -239,5 +239,78 @@ a:hover {
 }
 
 .cta .subtitle {
+
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .header .logo {
+        margin-top: 25px;
+    }
+
+    .welcome {
+        margin-top: 15%;
+        font-size: 0.55em;
+    }
+
+    .contact-method {
+        margin-top: 10px;
+        word-wrap: break-word;
+    }
+
+    .review {
+        margin-top: 30px;
+    }
+
+    .review .title {
+        padding: 5px 0;
+    }
+
+    .review p {
+        margin-top: 5px;
+    }
+
+    .nav {
+        width: 100%;
+        display: table;
+        margin-top: 20px;
+        top: 0;
+    }
+
+    .nav > li {
+        float: none;
+        font-size: 1.2em;
+        padding: 0;
+        display: table-cell;
+        text-align: center;
+        margin: 0;
+    }
+
+    .footer .cta {
+        font-size: 1.5em;
+    }
+
+    .footer .cta h1 {
+        font-size: 28px;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
 
 }
