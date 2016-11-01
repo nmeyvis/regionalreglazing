@@ -87,6 +87,11 @@ a:hover {
     background-color: #29295a;
     color: white;
 }
+
+.full-banner a {
+    color: white;
+}
+
 .contact-info {
     text-align: center;
 }
