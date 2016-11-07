@@ -278,6 +278,10 @@ a:hover {
         word-wrap: break-word;
     }
 
+    .contact-method.email {
+        font-size: 1.5em;
+    }
+
     .review {
         margin-top: 30px;
     }
