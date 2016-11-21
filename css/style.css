@@ -15,7 +15,7 @@ h1 {
 }
 
 a {
-    color: #1e40a5;
+    color: #6d6db0;
     text-decoration: none;
 }
 
@@ -183,8 +183,31 @@ a:hover {
     padding: 2% 4%;
 }
 
+.gallery-more-container {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    padding: 5px;
+    border-top: 1px solid #e9eaec;
+}
+
+.gallery-more {
+    background-color: #f6f9fc;
+    display: inline-block;
+    padding: 10px 40%;
+    border-radius: 100px;
+}
+
+.gallery-more img {
+    width: 64px;
+}
+
+.gallery-more div {
+    margin-top: 10px;
+}
+
 #reviews {
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 #reviews > h1 {
@@ -228,7 +251,6 @@ a:hover {
 
 .footer .full-banner {
     border-top: none;
-    border-bottom: 35px solid #44447b;
 }
 
 .cta {
@@ -245,6 +267,23 @@ a:hover {
 
 .cta .subtitle {
 
+}
+
+.social {
+    text-align: center;
+    background-color: #44447b;
+    padding: 10px;
+}
+
+.social a {
+    background-color: rgba(0,0,0,0.1);
+    padding: 5px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.social img {
+    width: 32px;
 }
 
 /* Large desktops and laptops */
