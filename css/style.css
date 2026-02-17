@@ -309,7 +309,14 @@ a:hover {
 
     .welcome {
         margin-top: 15%;
-        font-size: 0.55em;
+    }
+
+    .welcome h1 {
+        font-size: 2em;
+    }
+
+    .welcome p {
+        font-size: 1.1em;
     }
 
     .contact-method {
